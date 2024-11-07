@@ -28,3 +28,63 @@ nav>div>img {
 }
 /* Header */
 
+/* Section 1 */
+.section1 {
+    height: 400px;
+    background-image: url('http://www.nialjewar.com/img/SLIDE_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Section 1 */
+
+/* Section 2 */
+
+.section2 {
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2>div {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-right: 1px solid rgb(138, 129, 129);
+    padding-right: 2px;
+    cursor: pointer;
+}
+/* Section 2 */
+
+
+/* Section 3 */
+.section3 {
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3>div {
+    width: 100px;
+    padding: 5px;
+    color: black;
+    background-color: yellow;
+}
+.section3>marquee {
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+}
+.section3>marquee>span {
+    padding-left: 20px;
+}
+/* Section 3 */
+

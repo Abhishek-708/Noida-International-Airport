@@ -88,3 +88,25 @@ nav>div>img {
 }
 /* Section 3 */
 
+/* Section 4 */
+.section4 {
+    height: 200px;
+    background-color: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.section4-box {
+    z-index: 20;
+    background-color: white;
+    height: 85px;
+    width: 290px;
+}
+/* Section 4 */
+
+

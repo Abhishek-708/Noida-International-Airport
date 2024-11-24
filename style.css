@@ -158,3 +158,16 @@ nav>div>img {
     cursor: pointer;
 }
 
+.footer2 {
+    height: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue" !important;
+}
